@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">testJob</string>
+    <string name="bg">background</string>
+    <string name="btnNotifi">TODO</string>
+    <string name="rect">rectangle</string>
+    <string name="btnPlus">plusFragment</string>
+    <string name="create_new_notification">Create new notification</string>
+    <string name="numbFragment">1</string>
+    <string name="btnMinus">minus</string>
+
+</resources>

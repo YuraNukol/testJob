@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_main">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="736dp"
+        android:contentDescription="@string/bg"
+        android:background="@drawable/bg"
+        android:layout_marginStart="-5dp"/>
+
+    <ImageButton
+        android:id="@+id/btnNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/oval_copy"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:contentDescription="@string/btnNotifi"
+        android:background="@null">
+
+    </ImageButton>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rectangle"
+        android:contentDescription="@string/rect"
+        android:layout_marginTop="620dp"
+        android:layout_marginStart="25dp"
+        />
+
+    <ImageButton
+        android:id="@+id/btnPlus"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/plus"
+        android:background="@drawable/blue"
+        android:contentDescription="@string/btnPlus"
+        android:layout_marginTop="617dp"
+        android:layout_marginStart="300dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="245dp"
+        android:text="@string/create_new_notification"
+        android:textColor="#F7F4F8"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/numbFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numbFragment"
+        android:textColor="#266CA2"
+        android:textSize="40sp"
+        android:layout_marginTop="635dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageButton
+        android:id="@+id/btnMinus"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="617dp"
+        android:background="@drawable/blue"
+        android:src="@drawable/minus"
+        android:visibility="invisible"
+        android:contentDescription="@string/btnMinus" />
+
+
+</FrameLayout>
